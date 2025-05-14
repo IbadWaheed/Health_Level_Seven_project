@@ -1,0 +1,1697 @@
+{
+  "msh" : {
+    "fieldSeparator" : null,
+    "encodingCharacters" : null,
+    "sendingApplication" : null,
+    "sendingFacility" : null,
+    "receivingApplication" : null,
+    "receivingFacility" : null,
+    "dateTimeOfMessage" : null,
+    "security" : null,
+    "messageType" : {
+      "messageCode" : null,
+      "triggerEvent" : null,
+      "messageStructure" : null
+    },
+    "messageControlID" : null,
+    "processingID" : null,
+    "versionID" : null,
+    "sequenceNumber" : null,
+    "continuationPointer" : null,
+    "acceptAcknowledgmentType" : null,
+    "applicationAcknowledgmentType" : null,
+    "countryCode" : null,
+    "characterSet" : [ ],
+    "principalLanguageOfMessage" : null,
+    "alternateCharacterSetHandlingScheme" : null,
+    "messageProfileIdentifier" : [ ]
+  },
+  "sch" : {
+    "placerAppointmentID" : null,
+    "fillerAppointmentID" : null,
+    "occurrenceNumber" : null,
+    "placerGroupNumber" : null,
+    "scheduleID" : null,
+    "eventReason" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "appointmentReason" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "appointmentType" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "appointmentDuration" : null,
+    "appointmentDurationUnits" : null,
+    "appointmentTimingQuantity" : [ {
+      "quantity" : null,
+      "interval" : null,
+      "duration" : null,
+      "startDateTime" : null,
+      "endDateTime" : null
+    } ],
+    "placerContactPerson" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "placerContactPhoneNumber" : null,
+    "placerContactAddress" : [ ],
+    "placerContactLocation" : null,
+    "fillerContactPerson" : [ ],
+    "fillerContactPhoneNumber" : null,
+    "fillerContactAddress" : [ ],
+    "fillerContactLocation" : null,
+    "enteredByPerson" : [ ],
+    "enteredByPhoneNumber" : [ ],
+    "enteredByLocation" : null,
+    "parentPlacerAppointmentID" : null,
+    "parentFillerAppointmentID" : null,
+    "fillerStatusCode" : null,
+    "placerOrderNumber" : [ ],
+    "fillerOrderNumber" : [ ]
+  },
+  "tq1" : [ {
+    "setIdTq1" : null,
+    "quantity" : {
+      "quantity" : null,
+      "units" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      }
+    },
+    "repeatPattern" : [ {
+      "repeatPatternCode" : null,
+      "calendarAlignment" : null,
+      "phaseRangeBeginValue" : null,
+      "phaseRangeEndValue" : null,
+      "periodQuantity" : null,
+      "periodUnits" : null,
+      "institutionSpecifiedTime" : null,
+      "event" : null,
+      "eventOffsetQuantity" : null,
+      "eventOffsetUnits" : null,
+      "generalTimingSpecification" : null
+    } ],
+    "explicitTime" : [ ],
+    "relativeTimeAndUnits" : [ {
+      "quantity" : null,
+      "units" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      }
+    } ],
+    "serviceDuration" : {
+      "quantity" : null,
+      "units" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      }
+    },
+    "startDateTime" : null,
+    "endDateTime" : null,
+    "priority" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null,
+      "codingSystemVersionId" : null,
+      "alternateCodingSystemVersionId" : null,
+      "originalText" : null
+    } ],
+    "conditionText" : null,
+    "textInstruction" : null,
+    "conjunction" : null,
+    "occurrenceDuration" : {
+      "quantity" : null,
+      "units" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      }
+    },
+    "totalOccurrences" : null
+  } ],
+  "nte" : [ {
+    "setIdNTE" : null,
+    "sourceOfComment" : null,
+    "comment" : [ ],
+    "commentType" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    }
+  } ],
+  "patient" : [ {
+    "pid" : {
+      "setIdPid" : null,
+      "patientId" : {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      },
+      "patientIdentifierList" : [ ],
+      "alternatePatientId" : [ {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      } ],
+      "patientName" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "mothersMaidenName" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "dateTimeOfBirth" : null,
+      "administrativeSex" : null,
+      "patientAlias" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "race" : null,
+      "patientAddress" : [ {
+        "streetAddress" : null,
+        "otherDesignation" : null,
+        "city" : null,
+        "stateOrProvince" : null,
+        "zipOrPostalCode" : null,
+        "country" : null,
+        "addressType" : null,
+        "otherGeographicDesignation" : null,
+        "countyParishCode" : null,
+        "censusTract" : null,
+        "addressRepresentationCode" : null,
+        "addressValidityRange" : null,
+        "effectiveDate" : null,
+        "expirationDate" : null
+      } ],
+      "countyCode" : null,
+      "phoneNumberHome" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ],
+      "phoneNumberBusiness" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ],
+      "primaryLanguage" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "maritalStatus" : null,
+      "religion" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "patientAccountNumber" : {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      },
+      "ssnNumberPatient" : null,
+      "driversLicenseNumberPatient" : {
+        "licenseNumber" : null,
+        "issuingLocation" : null,
+        "expirationDate" : null
+      },
+      "mothersIdentifier" : [ {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      } ],
+      "ethnicGroup" : [ ],
+      "birthPlace" : null,
+      "multipleBirthIndicator" : null,
+      "birthOrder" : null,
+      "citizenship" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "veteransMilitaryStatus" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "nationality" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "patientDeathDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "patientDeathIndicator" : null,
+      "identityUnknownIndicator" : null,
+      "identityReliabilityCode" : [ ],
+      "lastUpdateDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "lastUpdateFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "speciesCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "breedCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "strain" : null,
+      "productionClassCode" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "tribalCitizenship" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      } ]
+    },
+    "pd1" : {
+      "livingDependency" : null,
+      "livingArrangement" : null,
+      "patientPrimaryFacility" : [ {
+        "organizationName" : null,
+        "organizationNameTypeCode" : null,
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : null,
+        "identifierTypeCode" : null,
+        "assigningFacility" : null,
+        "nameRepresentationCode" : null,
+        "organizationIdentifier" : null
+      } ],
+      "patientPrimaryCareProviderNameAndIdNo" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "studentIndicator" : null,
+      "handicap" : null,
+      "livingWillCode" : null,
+      "organDonorCode" : null,
+      "separateBill" : null,
+      "duplicatePatient" : [ {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      } ],
+      "publicityCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "protectionIndicator" : null,
+      "protectionIndicatorEffectiveDate" : null,
+      "placeOfWorship" : [ {
+        "organizationName" : null,
+        "organizationNameTypeCode" : null,
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : null,
+        "identifierTypeCode" : null,
+        "assigningFacility" : null,
+        "nameRepresentationCode" : null,
+        "organizationIdentifier" : null
+      } ],
+      "advanceDirectiveCode" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "immunizationRegistryStatus" : null,
+      "immunizationRegistryStatusEffectiveDate" : null,
+      "publicityCodeEffectiveDate" : null,
+      "militaryBranch" : null,
+      "militaryRankGrade" : null,
+      "militaryStatus" : null
+    },
+    "pv1" : {
+      "setIdPV1" : null,
+      "patientClass" : null,
+      "assignedPatientLocation" : {
+        "pointOfCare" : null,
+        "room" : null,
+        "bed" : null,
+        "facility" : null,
+        "locationStatus" : null,
+        "personLocationType" : null,
+        "building" : null,
+        "floor" : null,
+        "locationDescription" : null,
+        "comprehensiveLocationIdentifier" : null,
+        "assigningAuthorityForLocation" : null
+      },
+      "admissionType" : null,
+      "preadmitNumber" : {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      },
+      "priorPatientLocation" : {
+        "pointOfCare" : null,
+        "room" : null,
+        "bed" : null,
+        "facility" : null,
+        "locationStatus" : null,
+        "personLocationType" : null,
+        "building" : null,
+        "floor" : null,
+        "locationDescription" : null,
+        "comprehensiveLocationIdentifier" : null,
+        "assigningAuthorityForLocation" : null
+      },
+      "attendingDoctor" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "referringDoctor" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "consultingDoctor" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "hospitalService" : null,
+      "temporaryLocation" : {
+        "pointOfCare" : null,
+        "room" : null,
+        "bed" : null,
+        "facility" : null,
+        "locationStatus" : null,
+        "personLocationType" : null,
+        "building" : null,
+        "floor" : null,
+        "locationDescription" : null,
+        "comprehensiveLocationIdentifier" : null,
+        "assigningAuthorityForLocation" : null
+      },
+      "preadmitTestIndicator" : null,
+      "reAdmissionIndicator" : null,
+      "admitSource" : null,
+      "ambulatoryStatus" : [ ],
+      "vipIndicator" : null,
+      "admittingDoctor" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "patientType" : null,
+      "visitNumber" : {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      },
+      "financialClass" : [ {
+        "financialClassCode" : null,
+        "effectiveDate" : {
+          "time" : null,
+          "degreeOfPrecision" : null
+        }
+      } ],
+      "chargePriceIndicator" : null,
+      "courtesyCode" : null,
+      "creditRating" : null,
+      "contractCode" : [ ],
+      "contractEffectiveDate" : [ ],
+      "contractAmount" : [ ],
+      "contractPeriod" : [ ],
+      "interestCode" : null,
+      "transferToBadDebtCode" : null,
+      "transferToBadDebtDate" : null,
+      "badDebtAgencyCode" : null,
+      "badDebtTransferAmount" : null,
+      "badDebtRecoveryAmount" : null,
+      "deleteAccountIndicator" : null,
+      "deleteAccountDate" : null,
+      "dischargeDisposition" : null,
+      "dischargedToLocation" : {
+        "dischargeLocation" : null,
+        "effectiveDate" : {
+          "time" : null,
+          "degreeOfPrecision" : null
+        }
+      },
+      "dietType" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "servicingFacility" : null,
+      "bedStatus" : null,
+      "accountStatus" : null,
+      "pendingLocation" : {
+        "pointOfCare" : null,
+        "room" : null,
+        "bed" : null,
+        "facility" : null,
+        "locationStatus" : null,
+        "personLocationType" : null,
+        "building" : null,
+        "floor" : null,
+        "locationDescription" : null,
+        "comprehensiveLocationIdentifier" : null,
+        "assigningAuthorityForLocation" : null
+      },
+      "priorTemporaryLocation" : {
+        "pointOfCare" : null,
+        "room" : null,
+        "bed" : null,
+        "facility" : null,
+        "locationStatus" : null,
+        "personLocationType" : null,
+        "building" : null,
+        "floor" : null,
+        "locationDescription" : null,
+        "comprehensiveLocationIdentifier" : null,
+        "assigningAuthorityForLocation" : null
+      },
+      "admitDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "dischargeDateTime" : [ {
+        "time" : null,
+        "degreeOfPrecision" : null
+      } ],
+      "currentPatientBalance" : null,
+      "totalCharges" : null,
+      "totalAdjustments" : null,
+      "totalPayments" : null,
+      "alternateVisitId" : {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      },
+      "visitIndicator" : null,
+      "otherHealthcareProvider" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ]
+    },
+    "pv2" : {
+      "priorPendingLocation" : {
+        "pointOfCare" : null,
+        "room" : null,
+        "bed" : null,
+        "facility" : null,
+        "locationStatus" : null,
+        "personLocationType" : null,
+        "building" : null,
+        "floor" : null,
+        "locationDescription" : null,
+        "comprehensiveLocationIdentifier" : null,
+        "assigningAuthorityForLocation" : null
+      },
+      "accommodationCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "admitReason" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "transferReason" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "patientValuables" : [ ],
+      "patientValuablesLocation" : null,
+      "visitUserCode" : [ ],
+      "expectedAdmitDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "expectedDischargeDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "estimatedLengthOfInpatientStay" : null,
+      "actualLengthOfInpatientStay" : null,
+      "visitDescription" : null,
+      "referralSourceCode" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "previousServiceDate" : null,
+      "employmentIllnessRelatedIndicator" : null,
+      "purgeStatusCode" : null,
+      "purgeStatusDate" : null,
+      "specialProgramCode" : null,
+      "retentionIndicator" : null,
+      "expectedNumberOfInsurancePlans" : null,
+      "visitPublicityCode" : null,
+      "visitProtectionIndicator" : null,
+      "clinicOrganizationName" : [ {
+        "organizationName" : null,
+        "organizationNameTypeCode" : null,
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : null,
+        "identifierTypeCode" : null,
+        "assigningFacility" : null,
+        "nameRepresentationCode" : null,
+        "organizationIdentifier" : null
+      } ],
+      "patientStatusCode" : null,
+      "visitPriorityCode" : null,
+      "previousTreatmentDate" : null,
+      "expectedDischargeDisposition" : null,
+      "signatureOnFileDate" : null,
+      "firstSimilarIllnessDate" : null,
+      "patientChargeAdjustmentCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "recurringServiceCode" : null,
+      "billingMediaCode" : null,
+      "expectedSurgeryDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "militaryPartnershipCode" : null,
+      "militaryNonAvailabilityCode" : null,
+      "newbornBabyIndicator" : null,
+      "babyDetainedIndicator" : null,
+      "modeOfArrivalCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "recreationalDrugUseCode" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "admissionLevelOfCareCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "precautionCode" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "patientConditionCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "livingWillCode" : null,
+      "organDonorCode" : null,
+      "advanceDirectiveCode" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "patientStatusEffectiveDate" : null,
+      "expectedLOAReturnDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "expectedPreAdmissionTestingDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "notifyClergyCode" : [ ]
+    },
+    "obx" : [ {
+      "setIdOBX" : null,
+      "valueType" : null,
+      "observationIdentifier" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "observationSubId" : null,
+      "observationValue" : [ ],
+      "units" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "referencesRange" : null,
+      "abnormalFlags" : [ ],
+      "probability" : null,
+      "natureOfAbnormalTest" : [ ],
+      "observationResultStatus" : null,
+      "effectiveDateOfReferenceRange" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "userDefinedAccessChecks" : null,
+      "dateTimeOfTheObservation" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "producersId" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "responsibleObserver" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "observationMethod" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "equipmentInstanceIdentifier" : [ {
+        "entityIdentifier" : null,
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      } ],
+      "dateTimeOfTheAnalysis" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "reservedForHarmonizationV26_1" : null,
+      "reservedForHarmonizationV26_2" : null,
+      "reservedForHarmonizationV26_3" : null,
+      "performingOrganizationName" : {
+        "organizationName" : null,
+        "organizationNameTypeCode" : null,
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : null,
+        "identifierTypeCode" : null,
+        "assigningFacility" : null,
+        "nameRepresentationCode" : null,
+        "organizationIdentifier" : null
+      },
+      "performingOrganizationAddress" : {
+        "streetAddress" : null,
+        "otherDesignation" : null,
+        "city" : null,
+        "stateOrProvince" : null,
+        "zipOrPostalCode" : null,
+        "country" : null,
+        "addressType" : null,
+        "otherGeographicDesignation" : null,
+        "countyParishCode" : null,
+        "censusTract" : null,
+        "addressRepresentationCode" : null,
+        "addressValidityRange" : null,
+        "effectiveDate" : null,
+        "expirationDate" : null
+      },
+      "performingOrganizationMedicalDirector" : {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      }
+    } ],
+    "dg1" : [ {
+      "setIdDG1" : null,
+      "diagnosisCodingMethod" : null,
+      "diagnosisCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "diagnosisDescription" : null,
+      "diagnosisDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "diagnosisType" : null,
+      "majorDiagnosticCategory" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "diagnosticRelatedGroup" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "drgApprovalIndicator" : null,
+      "drgGrouperReviewCode" : null,
+      "outlierType" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "outlierDays" : null,
+      "outlierCost" : {
+        "price" : {
+          "quantity" : null,
+          "denomination" : null
+        },
+        "priceType" : null,
+        "fromValue" : null,
+        "toValue" : null,
+        "rangeUnits" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "rangeType" : null
+      },
+      "grouperVersionAndType" : null,
+      "diagnosisPriority" : null,
+      "diagnosingClinician" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "diagnosisClassification" : null,
+      "confidentialIndicator" : null,
+      "attestationDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "diagnosisIdentifier" : {
+        "entityIdentifier" : null,
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "diagnosisActionCode" : null
+    } ]
+  } ],
+  "resources" : [ {
+    "rgs" : {
+      "setId" : null,
+      "segmentActionCode" : null,
+      "resourceGroupId" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      }
+    },
+    "service" : [ {
+      "ais" : {
+        "setId" : null,
+        "segmentActionCode" : null,
+        "universalServiceIdentifier" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "startDateTime" : null,
+        "startDateTimeOffset" : null,
+        "startDateTimeOffsetUnits" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "duration" : null,
+        "durationUnits" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "allowSubstitutionCode" : null,
+        "fillerStatusCode" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        }
+      },
+      "nte" : [ {
+        "setIdNTE" : null,
+        "sourceOfComment" : null,
+        "comment" : [ ],
+        "commentType" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        }
+      } ]
+    } ],
+    "generalresource" : [ {
+      "aig" : {
+        "setId" : null,
+        "segmentActionCode" : null,
+        "resourceId" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "resourceType" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "resourceGroup" : [ {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        } ],
+        "resourceQuantity" : null,
+        "resourceQuantityUnits" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "startDateTime" : {
+          "time" : null,
+          "degreeOfPrecision" : null
+        },
+        "startDateTimeOffset" : null,
+        "startDateTimeOffsetUnits" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "duration" : null,
+        "durationUnits" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "allowSubstitutionCode" : null,
+        "fillerStatusCode" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        }
+      },
+      "nte" : [ {
+        "setIdNTE" : null,
+        "sourceOfComment" : null,
+        "comment" : [ ],
+        "commentType" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        }
+      } ]
+    } ],
+    "locationresource" : [ {
+      "ail" : {
+        "setId" : null,
+        "segmentActionCode" : null,
+        "locationResourceId" : {
+          "pointOfCare" : null,
+          "room" : null,
+          "bed" : null,
+          "facility" : null,
+          "locationStatus" : null,
+          "personLocationType" : null,
+          "building" : null,
+          "floor" : null,
+          "locationDescription" : null,
+          "comprehensiveLocationIdentifier" : null,
+          "assigningAuthorityForLocation" : null
+        },
+        "locationType" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "locationGroup" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "startDateTime" : {
+          "time" : null,
+          "degreeOfPrecision" : null
+        },
+        "startDateTimeOffset" : null,
+        "startDateTimeOffsetUnits" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "duration" : null,
+        "durationUnits" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "allowSubstitutionCode" : null,
+        "fillerStatusCode" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        }
+      },
+      "nte" : [ {
+        "setIdNTE" : null,
+        "sourceOfComment" : null,
+        "comment" : [ ],
+        "commentType" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        }
+      } ]
+    } ],
+    "personnelresource" : [ {
+      "aip" : {
+        "setId" : null,
+        "segmentActionCode" : null,
+        "personnelResourceId" : {
+          "idNumber" : null,
+          "familyName" : null,
+          "givenName" : null,
+          "middleInitialOrName" : null,
+          "suffix" : null,
+          "prefix" : null,
+          "degree" : null,
+          "sourceTable" : null,
+          "assigningAuthority" : null,
+          "nameType" : null,
+          "identifierCheckDigit" : null,
+          "checkDigitScheme" : null,
+          "identifierTypeCode" : null,
+          "assigningFacilityId" : null
+        },
+        "resourceRole" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "resourceGroup" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "startDateTime" : {
+          "time" : null,
+          "degreeOfPrecision" : null
+        },
+        "startDateTimeOffset" : null,
+        "startDateTimeOffsetUnits" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "duration" : null,
+        "durationUnits" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        },
+        "allowSubstitutionCode" : null,
+        "fillerStatusCode" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        }
+      },
+      "nte" : [ {
+        "setIdNTE" : null,
+        "sourceOfComment" : null,
+        "comment" : [ ],
+        "commentType" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null
+        }
+      } ]
+    } ]
+  } ]
+}

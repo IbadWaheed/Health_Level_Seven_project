@@ -1,0 +1,4001 @@
+{
+  "messageHeader" : {
+    "fieldSeparator" : "|",
+    "encodingCharacters" : "^~/&",
+    "sendingApplication" : "EPIC",
+    "sendingFacility" : null,
+    "receivingApplication" : "ARTERA",
+    "receivingFacility" : "ARTERA",
+    "dateTimeOfMessage" : "20221117132435",
+    "security" : "MYCHARTG",
+    "messageType" : {
+      "messageCode" : "ADT",
+      "triggerEvent" : "A18",
+      "messageStructure" : null
+    },
+    "messageControlID" : "526494826",
+    "processingID" : "T",
+    "versionID" : "2.3",
+    "sequenceNumber" : null,
+    "continuationPointer" : null,
+    "acceptAcknowledgmentType" : null,
+    "applicationAcknowledgmentType" : null,
+    "countryCode" : null,
+    "characterSet" : [ ],
+    "principalLanguageOfMessage" : null,
+    "alternateCharacterSetHandlingScheme" : null,
+    "messageProfileIdentifier" : ["TST" ]
+  },
+  "softwareSegments" : [ {
+    "softwareVendorOrganization" : {
+      "organizationName" : null,
+      "organizationNameTypeCode" : null,
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : null,
+      "identifierTypeCode" : null,
+      "assigningFacility" : null,
+      "nameRepresentationCode" : null,
+      "organizationIdentifier" : null
+    },
+    "certifiedVersionOrReleaseNumber" : null,
+    "softwareProductName" : null,
+    "softwareBinaryId" : null,
+    "softwareProductInformation" : null,
+    "softwareInstallDate" : null
+  } ],
+  "eventType" : {
+    "eventTypeCode" : null,
+    "recordedDateTime" : null,
+    "dateTimePlannedEvent" : null,
+    "eventReasonCode" : null,
+    "operatorId" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "eventOccurred" : null,
+    "eventFacility" : {
+      "namespaceId" : null,
+      "universalId" : null,
+      "universalIdType" : null
+    }
+  },
+  "patientIdentification" : {
+    "setIdPid" : "1",
+    "patientId" : {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    },
+    "patientIdentifierList" : ["430001148" ],
+    "alternatePatientId" : [ {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    } ],
+    "patientName" : [ {
+      "familyName" : "ARTERATEST",
+      "givenName" : "ARCH",
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : "L"
+    },
+    {
+      "familyName" : "ZTEST",
+      "givenName" : "ARCHIE",
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : "N"
+    }],
+    "mothersMaidenName" : [ {
+      "familyName" : null,
+      "givenName" : null,
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : null
+    } ],
+    "dateTimeOfBirth" : "19900101",
+    "administrativeSex" : null,
+    "patientAlias" : [ {
+      "familyName" : null,
+      "givenName" : null,
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : null
+    } ],
+    "race" : "O",
+    "patientAddress" : [ {
+      "streetAddress" : "123 TESTING ST.",
+      "otherDesignation" : null,
+      "city" : "COLUMBUS",
+      "stateOrProvince" : "OH",
+      "zipOrPostalCode" : "43201",
+      "country" : "US",
+      "addressType" : "L",
+      "otherGeographicDesignation" : null,
+      "countyParishCode" : "FRANKLIN",
+      "censusTract" : null,
+      "addressRepresentationCode" : null,
+      "addressValidityRange" : null,
+      "effectiveDate" : null,
+      "expirationDate" : null
+    } ],
+    "countyCode" : "FRANKLIN",
+    "phoneNumberHome" : [ {
+      "telephoneNumber" : "6666666666",
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : "H",
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : "1"
+    },
+    {
+      "telephoneNumber" : "5555555555",
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : "C",
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    },
+    {
+      "telephoneNumber" : null,
+      "telecommunicationUseCode" : "NET",
+      "telecommunicationEquipmentType" : null,
+      "communicationAddress" : "arch.arteratest@test.com",
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    }  ],
+    "phoneNumberBusiness" : [ {
+      "telephoneNumber" : "2222222222",
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : "W",
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    } ],
+    "primaryLanguage" : {
+      "identifier" : "ENG",
+      "text" : "ENGLISH",
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : "22",
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "maritalStatus" : null,
+    "religion" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "patientAccountNumber" : {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    },
+    "ssnNumberPatient" : null,
+    "driversLicenseNumberPatient" : {
+      "licenseNumber" : null,
+      "issuingLocation" : null,
+      "expirationDate" : null
+    },
+    "mothersIdentifier" : [ {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    } ],
+    "ethnicGroup" : ["O" ],
+    "birthPlace" : null,
+    "multipleBirthIndicator" : null,
+    "birthOrder" : null,
+    "citizenship" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "veteransMilitaryStatus" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "nationality" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "patientDeathDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "patientDeathIndicator" : "N",
+    "identityUnknownIndicator" : null,
+    "identityReliabilityCode" : [ ],
+    "lastUpdateDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "lastUpdateFacility" : {
+      "namespaceId" : null,
+      "universalId" : null,
+      "universalIdType" : null
+    },
+    "speciesCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "breedCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "strain" : null,
+    "productionClassCode" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "tribalCitizenship" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null,
+      "codingSystemVersionId" : null,
+      "alternateCodingSystemVersionId" : null,
+      "originalText" : null
+    } ]
+  },
+  "patientAdditionalDemographic" : {
+    "livingDependency" : null,
+    "livingArrangement" : null,
+    "patientPrimaryFacility" : [ {
+      "organizationName" : null,
+      "organizationNameTypeCode" : null,
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : null,
+      "identifierTypeCode" : null,
+      "assigningFacility" : null,
+      "nameRepresentationCode" : null,
+      "organizationIdentifier" : null
+    } ],
+    "patientPrimaryCareProviderNameAndIdNo" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "studentIndicator" : null,
+    "handicap" : null,
+    "livingWillCode" : null,
+    "organDonorCode" : null,
+    "separateBill" : null,
+    "duplicatePatient" : [ {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    } ],
+    "publicityCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "protectionIndicator" : null,
+    "protectionIndicatorEffectiveDate" : null,
+    "placeOfWorship" : [ {
+      "organizationName" : null,
+      "organizationNameTypeCode" : null,
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : null,
+      "identifierTypeCode" : null,
+      "assigningFacility" : null,
+      "nameRepresentationCode" : null,
+      "organizationIdentifier" : null
+    } ],
+    "advanceDirectiveCode" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "immunizationRegistryStatus" : null,
+    "immunizationRegistryStatusEffectiveDate" : null,
+    "publicityCodeEffectiveDate" : null,
+    "militaryBranch" : null,
+    "militaryRankGrade" : null,
+    "militaryStatus" : null
+  },
+  "patientRoles" : [ {
+    "roleInstanceId" : {
+      "entityIdentifier" : null,
+      "namespaceId" : null,
+      "universalId" : null,
+      "universalIdType" : null
+    },
+    "actionCode" : null,
+    "roleROL" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "rolePerson" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "roleBeginDateTime" : null,
+    "roleEndDateTime" : null,
+    "roleDuration" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "roleActionReason" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "providerType" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "organizationUnitType" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "officeHomeAddressBirthplace" : [ {
+      "streetAddress" : null,
+      "otherDesignation" : null,
+      "city" : null,
+      "stateOrProvince" : null,
+      "zipOrPostalCode" : null,
+      "country" : null,
+      "addressType" : null,
+      "otherGeographicDesignation" : null,
+      "countyParishCode" : null,
+      "censusTract" : null,
+      "addressRepresentationCode" : null,
+      "addressValidityRange" : null,
+      "effectiveDate" : null,
+      "expirationDate" : null
+    } ],
+    "phone" : [ {
+      "telephoneNumber" : null,
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : null,
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    } ]
+  } ],
+  "nextOfKinAssociatedParties" : [ {
+    "setIdNK1" : null,
+    "nkName" : [ {
+      "familyName" : null,
+      "givenName" : null,
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : null
+    } ],
+    "relationship" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "address" : [ {
+      "streetAddress" : null,
+      "otherDesignation" : null,
+      "city" : null,
+      "stateOrProvince" : null,
+      "zipOrPostalCode" : null,
+      "country" : null,
+      "addressType" : null,
+      "otherGeographicDesignation" : null,
+      "countyParishCode" : null,
+      "censusTract" : null,
+      "addressRepresentationCode" : null,
+      "addressValidityRange" : null,
+      "effectiveDate" : null,
+      "expirationDate" : null
+    } ],
+    "phoneNumber" : [ {
+      "telephoneNumber" : null,
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : null,
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    } ],
+    "businessPhoneNumber" : [ {
+      "telephoneNumber" : null,
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : null,
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    } ],
+    "contactRole" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "startDate" : null,
+    "endDate" : null,
+    "jobTitle" : null,
+    "jobCodeClass" : {
+      "jobCode" : null,
+      "jobClass" : null,
+      "jobDescriptionText" : null
+    },
+    "employeeNumber" : {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    },
+    "organizationName" : [ {
+      "organizationName" : null,
+      "organizationNameTypeCode" : null,
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : null,
+      "identifierTypeCode" : null,
+      "assigningFacility" : null,
+      "nameRepresentationCode" : null,
+      "organizationIdentifier" : null
+    } ],
+    "maritalStatus" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "administrativeSex" : null,
+    "dateTimeOfBirth" : null,
+    "livingDependency" : [ ],
+    "ambulatoryStatus" : [ ],
+    "citizenship" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "primaryLanguage" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "livingArrangement" : null,
+    "publicityCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "protectionIndicator" : null,
+    "studentIndicator" : null,
+    "religion" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "mothersMaidenName" : [ {
+      "familyName" : null,
+      "givenName" : null,
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : null
+    } ],
+    "nationality" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "ethnicGroup" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "contactReason" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "contactPersonsName" : [ {
+      "familyName" : null,
+      "givenName" : null,
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : null
+    } ],
+    "contactPersonsTelephoneNumber" : [ {
+      "telephoneNumber" : null,
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : null,
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    } ],
+    "contactPersonsAddress" : [ {
+      "streetAddress" : null,
+      "otherDesignation" : null,
+      "city" : null,
+      "stateOrProvince" : null,
+      "zipOrPostalCode" : null,
+      "country" : null,
+      "addressType" : null,
+      "otherGeographicDesignation" : null,
+      "countyParishCode" : null,
+      "censusTract" : null,
+      "addressRepresentationCode" : null,
+      "addressValidityRange" : null,
+      "effectiveDate" : null,
+      "expirationDate" : null
+    } ],
+    "partyIdentifiers" : [ {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    } ],
+    "jobStatus" : null,
+    "race" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "handicap" : null,
+    "contactPersonSSN" : null,
+    "birthPlace" : null,
+    "vipIndicator" : null
+  } ],
+  "patientVisit" : {
+    "setIdPV1" : null,
+    "patientClass" : null,
+    "assignedPatientLocation" : {
+      "pointOfCare" : null,
+      "room" : null,
+      "bed" : null,
+      "facility" : null,
+      "locationStatus" : null,
+      "personLocationType" : null,
+      "building" : null,
+      "floor" : null,
+      "locationDescription" : null,
+      "comprehensiveLocationIdentifier" : null,
+      "assigningAuthorityForLocation" : null
+    },
+    "admissionType" : null,
+    "preadmitNumber" : {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    },
+    "priorPatientLocation" : {
+      "pointOfCare" : null,
+      "room" : null,
+      "bed" : null,
+      "facility" : null,
+      "locationStatus" : null,
+      "personLocationType" : null,
+      "building" : null,
+      "floor" : null,
+      "locationDescription" : null,
+      "comprehensiveLocationIdentifier" : null,
+      "assigningAuthorityForLocation" : null
+    },
+    "attendingDoctor" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "referringDoctor" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "consultingDoctor" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "hospitalService" : null,
+    "temporaryLocation" : {
+      "pointOfCare" : null,
+      "room" : null,
+      "bed" : null,
+      "facility" : null,
+      "locationStatus" : null,
+      "personLocationType" : null,
+      "building" : null,
+      "floor" : null,
+      "locationDescription" : null,
+      "comprehensiveLocationIdentifier" : null,
+      "assigningAuthorityForLocation" : null
+    },
+    "preadmitTestIndicator" : null,
+    "reAdmissionIndicator" : null,
+    "admitSource" : null,
+    "ambulatoryStatus" : [ ],
+    "vipIndicator" : null,
+    "admittingDoctor" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "patientType" : null,
+    "visitNumber" : {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    },
+    "financialClass" : [ {
+      "financialClassCode" : null,
+      "effectiveDate" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      }
+    } ],
+    "chargePriceIndicator" : null,
+    "courtesyCode" : null,
+    "creditRating" : null,
+    "contractCode" : [ ],
+    "contractEffectiveDate" : [ ],
+    "contractAmount" : [ ],
+    "contractPeriod" : [ ],
+    "interestCode" : null,
+    "transferToBadDebtCode" : null,
+    "transferToBadDebtDate" : null,
+    "badDebtAgencyCode" : null,
+    "badDebtTransferAmount" : null,
+    "badDebtRecoveryAmount" : null,
+    "deleteAccountIndicator" : null,
+    "deleteAccountDate" : null,
+    "dischargeDisposition" : null,
+    "dischargedToLocation" : {
+      "dischargeLocation" : null,
+      "effectiveDate" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      }
+    },
+    "dietType" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "servicingFacility" : null,
+    "bedStatus" : null,
+    "accountStatus" : null,
+    "pendingLocation" : {
+      "pointOfCare" : null,
+      "room" : null,
+      "bed" : null,
+      "facility" : null,
+      "locationStatus" : null,
+      "personLocationType" : null,
+      "building" : null,
+      "floor" : null,
+      "locationDescription" : null,
+      "comprehensiveLocationIdentifier" : null,
+      "assigningAuthorityForLocation" : null
+    },
+    "priorTemporaryLocation" : {
+      "pointOfCare" : null,
+      "room" : null,
+      "bed" : null,
+      "facility" : null,
+      "locationStatus" : null,
+      "personLocationType" : null,
+      "building" : null,
+      "floor" : null,
+      "locationDescription" : null,
+      "comprehensiveLocationIdentifier" : null,
+      "assigningAuthorityForLocation" : null
+    },
+    "admitDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "dischargeDateTime" : [ {
+      "time" : null,
+      "degreeOfPrecision" : null
+    } ],
+    "currentPatientBalance" : null,
+    "totalCharges" : null,
+    "totalAdjustments" : null,
+    "totalPayments" : null,
+    "alternateVisitId" : {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    },
+    "visitIndicator" : null,
+    "otherHealthcareProvider" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ]
+  },
+  "patientVisitAdditionalInfo" : {
+    "priorPendingLocation" : {
+      "pointOfCare" : null,
+      "room" : null,
+      "bed" : null,
+      "facility" : null,
+      "locationStatus" : null,
+      "personLocationType" : null,
+      "building" : null,
+      "floor" : null,
+      "locationDescription" : null,
+      "comprehensiveLocationIdentifier" : null,
+      "assigningAuthorityForLocation" : null
+    },
+    "accommodationCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "admitReason" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "transferReason" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "patientValuables" : [ ],
+    "patientValuablesLocation" : null,
+    "visitUserCode" : [ ],
+    "expectedAdmitDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "expectedDischargeDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "estimatedLengthOfInpatientStay" : null,
+    "actualLengthOfInpatientStay" : null,
+    "visitDescription" : null,
+    "referralSourceCode" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "previousServiceDate" : null,
+    "employmentIllnessRelatedIndicator" : null,
+    "purgeStatusCode" : null,
+    "purgeStatusDate" : null,
+    "specialProgramCode" : null,
+    "retentionIndicator" : null,
+    "expectedNumberOfInsurancePlans" : null,
+    "visitPublicityCode" : null,
+    "visitProtectionIndicator" : null,
+    "clinicOrganizationName" : [ {
+      "organizationName" : null,
+      "organizationNameTypeCode" : null,
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : null,
+      "identifierTypeCode" : null,
+      "assigningFacility" : null,
+      "nameRepresentationCode" : null,
+      "organizationIdentifier" : null
+    } ],
+    "patientStatusCode" : null,
+    "visitPriorityCode" : null,
+    "previousTreatmentDate" : null,
+    "expectedDischargeDisposition" : null,
+    "signatureOnFileDate" : null,
+    "firstSimilarIllnessDate" : null,
+    "patientChargeAdjustmentCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "recurringServiceCode" : null,
+    "billingMediaCode" : null,
+    "expectedSurgeryDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "militaryPartnershipCode" : null,
+    "militaryNonAvailabilityCode" : null,
+    "newbornBabyIndicator" : null,
+    "babyDetainedIndicator" : null,
+    "modeOfArrivalCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "recreationalDrugUseCode" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "admissionLevelOfCareCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "precautionCode" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "patientConditionCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "livingWillCode" : null,
+    "organDonorCode" : null,
+    "advanceDirectiveCode" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "patientStatusEffectiveDate" : null,
+    "expectedLOAReturnDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "expectedPreAdmissionTestingDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "notifyClergyCode" : [ ]
+  },
+  "additionalRoles" : [ {
+    "roleInstanceId" : {
+      "entityIdentifier" : null,
+      "namespaceId" : null,
+      "universalId" : null,
+      "universalIdType" : null
+    },
+    "actionCode" : null,
+    "roleROL" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "rolePerson" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "roleBeginDateTime" : null,
+    "roleEndDateTime" : null,
+    "roleDuration" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "roleActionReason" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "providerType" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "organizationUnitType" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "officeHomeAddressBirthplace" : [ {
+      "streetAddress" : null,
+      "otherDesignation" : null,
+      "city" : null,
+      "stateOrProvince" : null,
+      "zipOrPostalCode" : null,
+      "country" : null,
+      "addressType" : null,
+      "otherGeographicDesignation" : null,
+      "countyParishCode" : null,
+      "censusTract" : null,
+      "addressRepresentationCode" : null,
+      "addressValidityRange" : null,
+      "effectiveDate" : null,
+      "expirationDate" : null
+    } ],
+    "phone" : [ {
+      "telephoneNumber" : null,
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : null,
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    } ]
+  } ],
+  "patientDisabilities" : [ {
+    "setIdDB1" : null,
+    "disabledPersonCode" : null,
+    "disabledPersonIdentifier" : [ {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    } ],
+    "disabledIndicator" : null,
+    "disabilityStartDate" : null,
+    "disabilityEndDate" : null,
+    "disabilityReturnToWorkDate" : null,
+    "disabilityUnableToWorkDate" : null
+  } ],
+  "observationResults" : [ {
+    "setIdOBX" : null,
+    "valueType" : null,
+    "observationIdentifier" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "observationSubId" : null,
+    "observationValue" : [ ],
+    "units" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "referencesRange" : null,
+    "abnormalFlags" : [ ],
+    "probability" : null,
+    "natureOfAbnormalTest" : [ ],
+    "observationResultStatus" : null,
+    "effectiveDateOfReferenceRange" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "userDefinedAccessChecks" : null,
+    "dateTimeOfTheObservation" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "producersId" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "responsibleObserver" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "observationMethod" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "equipmentInstanceIdentifier" : [ {
+      "entityIdentifier" : null,
+      "namespaceId" : null,
+      "universalId" : null,
+      "universalIdType" : null
+    } ],
+    "dateTimeOfTheAnalysis" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "reservedForHarmonizationV26_1" : null,
+    "reservedForHarmonizationV26_2" : null,
+    "reservedForHarmonizationV26_3" : null,
+    "performingOrganizationName" : {
+      "organizationName" : null,
+      "organizationNameTypeCode" : null,
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : null,
+      "identifierTypeCode" : null,
+      "assigningFacility" : null,
+      "nameRepresentationCode" : null,
+      "organizationIdentifier" : null
+    },
+    "performingOrganizationAddress" : {
+      "streetAddress" : null,
+      "otherDesignation" : null,
+      "city" : null,
+      "stateOrProvince" : null,
+      "zipOrPostalCode" : null,
+      "country" : null,
+      "addressType" : null,
+      "otherGeographicDesignation" : null,
+      "countyParishCode" : null,
+      "censusTract" : null,
+      "addressRepresentationCode" : null,
+      "addressValidityRange" : null,
+      "effectiveDate" : null,
+      "expirationDate" : null
+    },
+    "performingOrganizationMedicalDirector" : {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    }
+  } ],
+  "patientAllergyInformation" : [ {
+    "setIdAL1" : null,
+    "allergenTypeCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "allergenCodeMnemonicDescription" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "allergySeverityCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "allergyReactionCode" : [ ],
+    "identificationDate" : null
+  } ],
+  "diagnoses" : [ {
+    "setIdDG1" : null,
+    "diagnosisCodingMethod" : null,
+    "diagnosisCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "diagnosisDescription" : null,
+    "diagnosisDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "diagnosisType" : null,
+    "majorDiagnosticCategory" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "diagnosticRelatedGroup" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "drgApprovalIndicator" : null,
+    "drgGrouperReviewCode" : null,
+    "outlierType" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "outlierDays" : null,
+    "outlierCost" : {
+      "price" : {
+        "quantity" : null,
+        "denomination" : null
+      },
+      "priceType" : null,
+      "fromValue" : null,
+      "toValue" : null,
+      "rangeUnits" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "rangeType" : null
+    },
+    "grouperVersionAndType" : null,
+    "diagnosisPriority" : null,
+    "diagnosingClinician" : [ {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    } ],
+    "diagnosisClassification" : null,
+    "confidentialIndicator" : null,
+    "attestationDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "diagnosisIdentifier" : {
+      "entityIdentifier" : null,
+      "namespaceId" : null,
+      "universalId" : null,
+      "universalIdType" : null
+    },
+    "diagnosisActionCode" : null
+  } ],
+  "diagnosisRelatedGroup" : {
+    "diagnosticRelatedGroup" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "drgAssignedDateTime" : null,
+    "drgApprovalIndicator" : null,
+    "drgGrouperReviewCode" : null,
+    "outlierType" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "outlierDays" : null,
+    "outlierCost" : {
+      "price" : {
+        "quantity" : null,
+        "denomination" : null
+      },
+      "priceType" : null,
+      "fromValue" : null,
+      "toValue" : null,
+      "rangeUnits" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "rangeType" : null
+    },
+    "drgPayor" : null,
+    "outlierReimbursement" : {
+      "price" : {
+        "quantity" : null,
+        "denomination" : null
+      },
+      "priceType" : null,
+      "fromValue" : null,
+      "toValue" : null,
+      "rangeUnits" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "rangeType" : null
+    },
+    "confidentialIndicator" : null,
+    "drgTransferType" : null
+  },
+  "procedures" : [ {
+    "procedures" : [ {
+      "setIdPr1" : null,
+      "procedureCodingMethod" : null,
+      "procedureCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "procedureDescription" : null,
+      "procedureDateTime" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      },
+      "procedureFunctionalType" : null,
+      "procedureMinutes" : null,
+      "anesthesiologist" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "anesthesiaCode" : null,
+      "anesthesiaMinutes" : null,
+      "surgeon" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "procedurePractitioner" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "consentCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "procedurePriority" : null,
+      "associatedDiagnosisCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "procedureCodeModifier" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "procedureDrgType" : null,
+      "tissueTypeCode" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "procedureIdentifier" : {
+        "entityIdentifier" : null,
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "procedureActionCode" : null
+    } ],
+    "roles" : [ {
+      "roleInstanceId" : {
+        "entityIdentifier" : null,
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "actionCode" : null,
+      "roleROL" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "rolePerson" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "roleBeginDateTime" : null,
+      "roleEndDateTime" : null,
+      "roleDuration" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "roleActionReason" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "providerType" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "organizationUnitType" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "officeHomeAddressBirthplace" : [ {
+        "streetAddress" : null,
+        "otherDesignation" : null,
+        "city" : null,
+        "stateOrProvince" : null,
+        "zipOrPostalCode" : null,
+        "country" : null,
+        "addressType" : null,
+        "otherGeographicDesignation" : null,
+        "countyParishCode" : null,
+        "censusTract" : null,
+        "addressRepresentationCode" : null,
+        "addressValidityRange" : null,
+        "effectiveDate" : null,
+        "expirationDate" : null
+      } ],
+      "phone" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ]
+    } ]
+  } ],
+  "guarantors" : [ {
+    "setIdGt1" : null,
+    "guarantorNumber" : [ {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    } ],
+    "guarantorName" : [ {
+      "familyName" : null,
+      "givenName" : null,
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : null
+    } ],
+    "guarantorSpouseName" : [ {
+      "familyName" : null,
+      "givenName" : null,
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : null
+    } ],
+    "guarantorAddress" : [ {
+      "streetAddress" : null,
+      "otherDesignation" : null,
+      "city" : null,
+      "stateOrProvince" : null,
+      "zipOrPostalCode" : null,
+      "country" : null,
+      "addressType" : null,
+      "otherGeographicDesignation" : null,
+      "countyParishCode" : null,
+      "censusTract" : null,
+      "addressRepresentationCode" : null,
+      "addressValidityRange" : null,
+      "effectiveDate" : null,
+      "expirationDate" : null
+    } ],
+    "guarantorPhoneNumberHome" : [ {
+      "telephoneNumber" : null,
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : null,
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    } ],
+    "guarantorPhoneNumberBusiness" : [ {
+      "telephoneNumber" : null,
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : null,
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    } ],
+    "guarantorDateTimeOfBirth" : null,
+    "guarantorAdministrativeSex" : null,
+    "guarantorType" : null,
+    "guarantorRelationship" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "guarantorSSN" : null,
+    "guarantorDateBegin" : null,
+    "guarantorDateEnd" : null,
+    "guarantorPriority" : null,
+    "guarantorEmployerName" : [ {
+      "familyName" : null,
+      "givenName" : null,
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : null
+    } ],
+    "guarantorEmployerAddress" : [ {
+      "streetAddress" : null,
+      "otherDesignation" : null,
+      "city" : null,
+      "stateOrProvince" : null,
+      "zipOrPostalCode" : null,
+      "country" : null,
+      "addressType" : null,
+      "otherGeographicDesignation" : null,
+      "countyParishCode" : null,
+      "censusTract" : null,
+      "addressRepresentationCode" : null,
+      "addressValidityRange" : null,
+      "effectiveDate" : null,
+      "expirationDate" : null
+    } ],
+    "guarantorEmployerPhoneNumber" : [ {
+      "telephoneNumber" : null,
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : null,
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    } ],
+    "guarantorEmployeeIdNumber" : [ {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    } ],
+    "guarantorEmploymentStatus" : null,
+    "guarantorOrganizationName" : [ {
+      "organizationName" : null,
+      "organizationNameTypeCode" : null,
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : null,
+      "identifierTypeCode" : null,
+      "assigningFacility" : null,
+      "nameRepresentationCode" : null,
+      "organizationIdentifier" : null
+    } ],
+    "guarantorBillingHoldFlag" : null,
+    "guarantorCreditRatingCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "guarantorDeathDateTime" : null,
+    "guarantorDeathFlag" : null,
+    "guarantorChargeAdjustmentCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "guarantorHouseholdAnnualIncome" : {
+      "price" : {
+        "quantity" : null,
+        "denomination" : null
+      },
+      "priceType" : null,
+      "fromValue" : null,
+      "toValue" : null,
+      "rangeUnits" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "rangeType" : null
+    },
+    "guarantorHouseholdSize" : null,
+    "guarantorEmployerIdNumber" : [ {
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "identifierTypeCode" : null,
+      "assigningFacility" : {
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "effectiveDate" : null,
+      "expirationDate" : null,
+      "assigningJurisdiction" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      },
+      "assigningAgencyOrDepartment" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null,
+        "codingSystemVersionId" : null,
+        "alternateCodingSystemVersionId" : null,
+        "originalText" : null
+      }
+    } ],
+    "guarantorMaritalStatusCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "guarantorHireEffectiveDate" : null,
+    "employmentStopDate" : null,
+    "livingDependency" : null,
+    "ambulatoryStatus" : [ ],
+    "citizenship" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "primaryLanguage" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "livingArrangement" : null,
+    "publicityCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "protectionIndicator" : null,
+    "studentIndicator" : null,
+    "religion" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "mothersMaidenName" : [ {
+      "familyName" : null,
+      "givenName" : null,
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : null
+    } ],
+    "nationality" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "ethnicGroup" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "contactPersonName" : [ {
+      "familyName" : null,
+      "givenName" : null,
+      "middleNamesOrInitials" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "nameTypeCode" : null
+    } ],
+    "contactPersonPhoneNumber" : [ {
+      "telephoneNumber" : null,
+      "telecommunicationUseCode" : null,
+      "telecommunicationEquipmentType" : null,
+      "communicationAddress" : null,
+      "countryCode" : null,
+      "areaCityCode" : null,
+      "localNumber" : null,
+      "extension" : null,
+      "anyText" : null,
+      "extensionPrefix" : null,
+      "speedDialCode" : null,
+      "unformattedTelephoneNumber" : null,
+      "effectiveStartDate" : null,
+      "expirationDate" : null,
+      "expirationReason" : null,
+      "protectionCode" : null,
+      "sharedTelecommunicationIdentifier" : null,
+      "preferenceOrder" : null
+    } ],
+    "contactReason" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "contactRelationship" : null,
+    "jobTitle" : null,
+    "jobCodeClass" : {
+      "jobCode" : null,
+      "jobClass" : null,
+      "jobDescriptionText" : null
+    },
+    "guarantorEmployerOrgName" : [ {
+      "organizationName" : null,
+      "organizationNameTypeCode" : null,
+      "idNumber" : null,
+      "checkDigit" : null,
+      "checkDigitScheme" : null,
+      "assigningAuthority" : null,
+      "identifierTypeCode" : null,
+      "assigningFacility" : null,
+      "nameRepresentationCode" : null,
+      "organizationIdentifier" : null
+    } ],
+    "handicap" : null,
+    "jobStatus" : null,
+    "guarantorFinancialClass" : {
+      "financialClassCode" : null,
+      "effectiveDate" : {
+        "time" : null,
+        "degreeOfPrecision" : null
+      }
+    },
+    "guarantorRace" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "guarantorBirthPlace" : null,
+    "vipIndicator" : null
+  } ],
+  "insuranceInformation" : [ {
+    "insurance" : {
+      "setIdIn1" : null,
+      "insurancePlanId" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "insuranceCompanyId" : [ {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      } ],
+      "insuranceCompanyName" : [ {
+        "organizationName" : null,
+        "organizationNameTypeCode" : null,
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : null,
+        "identifierTypeCode" : null,
+        "assigningFacility" : null,
+        "nameRepresentationCode" : null,
+        "organizationIdentifier" : null
+      } ],
+      "insuranceCompanyAddress" : [ {
+        "streetAddress" : null,
+        "otherDesignation" : null,
+        "city" : null,
+        "stateOrProvince" : null,
+        "zipOrPostalCode" : null,
+        "country" : null,
+        "addressType" : null,
+        "otherGeographicDesignation" : null,
+        "countyParishCode" : null,
+        "censusTract" : null,
+        "addressRepresentationCode" : null,
+        "addressValidityRange" : null,
+        "effectiveDate" : null,
+        "expirationDate" : null
+      } ],
+      "insuranceCoContactPerson" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "insuranceCoPhoneNumber" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ],
+      "groupNumber" : null,
+      "groupName" : [ {
+        "organizationName" : null,
+        "organizationNameTypeCode" : null,
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : null,
+        "identifierTypeCode" : null,
+        "assigningFacility" : null,
+        "nameRepresentationCode" : null,
+        "organizationIdentifier" : null
+      } ],
+      "insuredGroupEmpId" : [ {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      } ],
+      "insuredGroupEmpName" : [ {
+        "organizationName" : null,
+        "organizationNameTypeCode" : null,
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : null,
+        "identifierTypeCode" : null,
+        "assigningFacility" : null,
+        "nameRepresentationCode" : null,
+        "organizationIdentifier" : null
+      } ],
+      "planEffectiveDate" : null,
+      "planExpirationDate" : null,
+      "authorizationInformation" : {
+        "authorizationNumber" : null,
+        "date" : null,
+        "source" : null
+      },
+      "planType" : null,
+      "nameOfInsured" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "insuredRelationshipToPatient" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "insuredDateOfBirth" : null,
+      "insuredAddress" : [ {
+        "streetAddress" : null,
+        "otherDesignation" : null,
+        "city" : null,
+        "stateOrProvince" : null,
+        "zipOrPostalCode" : null,
+        "country" : null,
+        "addressType" : null,
+        "otherGeographicDesignation" : null,
+        "countyParishCode" : null,
+        "censusTract" : null,
+        "addressRepresentationCode" : null,
+        "addressValidityRange" : null,
+        "effectiveDate" : null,
+        "expirationDate" : null
+      } ],
+      "assignmentOfBenefits" : null,
+      "coordinationOfBenefits" : null,
+      "coordOfBenefitsPriority" : null,
+      "noticeOfAdmissionFlag" : null,
+      "noticeOfAdmissionDate" : null,
+      "reportOfEligibilityFlag" : null,
+      "reportOfEligibilityDate" : null,
+      "releaseInformationCode" : null,
+      "preAdmitCert" : null,
+      "verificationDateTime" : null,
+      "verificationBy" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "typeOfAgreementCode" : null,
+      "billingStatus" : null,
+      "lifetimeReserveDays" : null,
+      "delayBeforeLRDay" : null,
+      "companyPlanCode" : null,
+      "policyNumber" : null,
+      "policyDeductible" : null,
+      "policyLimitAmount" : null,
+      "policyLimitDays" : null,
+      "roomRateSemiPrivate" : null,
+      "roomRatePrivate" : null,
+      "insuredEmploymentStatus" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "insuredAdministrativeSex" : null,
+      "insuredEmployerAddress" : [ {
+        "streetAddress" : null,
+        "otherDesignation" : null,
+        "city" : null,
+        "stateOrProvince" : null,
+        "zipOrPostalCode" : null,
+        "country" : null,
+        "addressType" : null,
+        "otherGeographicDesignation" : null,
+        "countyParishCode" : null,
+        "censusTract" : null,
+        "addressRepresentationCode" : null,
+        "addressValidityRange" : null,
+        "effectiveDate" : null,
+        "expirationDate" : null
+      } ],
+      "verificationStatus" : null,
+      "priorInsurancePlanId" : null,
+      "coverageType" : null,
+      "handicap" : null,
+      "insuredIdNumber" : [ {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      } ],
+      "signatureCode" : null,
+      "signatureCodeDate" : null,
+      "insuredBirthPlace" : null,
+      "vipIndicator" : null
+    },
+    "insuranceAdditionalInfo" : {
+      "insuredEmployeeId" : [ {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      } ],
+      "insuredSSN" : null,
+      "insuredEmployerNameAndId" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "employerInformationData" : null,
+      "mailClaimParty" : [ ],
+      "medicareHealthInsCardNumber" : null,
+      "medicaidCaseName" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "medicaidCaseNumber" : null,
+      "militarySponsorName" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "militaryIdNumber" : null,
+      "dependentOfMilitaryRecipient" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "militaryOrganization" : null,
+      "militaryStation" : null,
+      "militaryService" : null,
+      "militaryRankGrade" : null,
+      "militaryStatus" : null,
+      "militaryRetireDate" : null,
+      "militaryNonAvailCertOnFile" : null,
+      "babyCoverage" : null,
+      "combineBabyBill" : null,
+      "bloodDeductible" : null,
+      "specialCoverageApprovalName" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "specialCoverageApprovalTitle" : null,
+      "nonCoveredInsuranceCode" : [ ],
+      "payorId" : [ {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      } ],
+      "payorSubscriberId" : [ {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      } ],
+      "eligibilitySource" : null,
+      "roomCoverageTypeAmount" : [ {
+        "roomType" : null,
+        "amountType" : null,
+        "coverageAmount" : null,
+        "moneyOrPercentage" : null
+      } ],
+      "policyTypeAmount" : [ {
+        "policyType" : null,
+        "amountClass" : null,
+        "moneyOrPercentageQuantity" : null,
+        "moneyOrPercentage" : null
+      } ],
+      "dailyDeductible" : {
+        "delayDays" : null,
+        "monetaryAmount" : {
+          "quantity" : null,
+          "denomination" : null
+        },
+        "numberOfDays" : null
+      },
+      "livingDependency" : null,
+      "ambulatoryStatus" : [ ],
+      "citizenship" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "primaryLanguage" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "livingArrangement" : null,
+      "publicityCode" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "protectionIndicator" : null,
+      "studentIndicator" : null,
+      "religion" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "mothersMaidenName" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "nationality" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "ethnicGroup" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "maritalStatus" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "insuredEmploymentStartDate" : null,
+      "employmentStopDate" : null,
+      "jobTitle" : null,
+      "jobCodeClass" : {
+        "jobCode" : null,
+        "jobClass" : null,
+        "jobDescriptionText" : null
+      },
+      "jobStatus" : null,
+      "employerContactPersonName" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "employerContactPersonPhoneNumber" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ],
+      "employerContactReason" : null,
+      "insuredContactPersonName" : [ {
+        "familyName" : null,
+        "givenName" : null,
+        "middleNamesOrInitials" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "nameTypeCode" : null
+      } ],
+      "insuredContactPersonPhoneNumber" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ],
+      "insuredContactPersonReason" : [ ],
+      "relationshipToPatientStartDate" : null,
+      "relationshipToPatientStopDate" : [ ],
+      "insuranceCoContactReason" : null,
+      "insuranceCoContactPhoneNumber" : {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      },
+      "policyScope" : null,
+      "policySource" : null,
+      "patientMemberNumber" : {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      },
+      "guarantorRelationshipToInsured" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "insuredPhoneNumberHome" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ],
+      "insuredEmployerPhoneNumber" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ],
+      "militaryHandicappedProgram" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "suspendFlag" : null,
+      "copayLimitFlag" : null,
+      "stoplossLimitFlag" : null,
+      "insuredOrganizationNameAndId" : [ {
+        "organizationName" : null,
+        "organizationNameTypeCode" : null,
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : null,
+        "identifierTypeCode" : null,
+        "assigningFacility" : null,
+        "nameRepresentationCode" : null,
+        "organizationIdentifier" : null
+      } ],
+      "insuredEmployerOrganizationNameAndId" : [ {
+        "organizationName" : null,
+        "organizationNameTypeCode" : null,
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : null,
+        "identifierTypeCode" : null,
+        "assigningFacility" : null,
+        "nameRepresentationCode" : null,
+        "organizationIdentifier" : null
+      } ],
+      "race" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "cmsPatientRelationshipToInsured" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      }
+    },
+    "insuranceCertifications" : [ {
+      "setIdIn3" : null,
+      "certificationNumber" : {
+        "idNumber" : null,
+        "checkDigit" : null,
+        "checkDigitScheme" : null,
+        "assigningAuthority" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "identifierTypeCode" : null,
+        "assigningFacility" : {
+          "namespaceId" : null,
+          "universalId" : null,
+          "universalIdType" : null
+        },
+        "effectiveDate" : null,
+        "expirationDate" : null,
+        "assigningJurisdiction" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        },
+        "assigningAgencyOrDepartment" : {
+          "identifier" : null,
+          "text" : null,
+          "nameOfCodingSystem" : null,
+          "alternateIdentifier" : null,
+          "alternateText" : null,
+          "nameOfAlternateCodingSystem" : null,
+          "codingSystemVersionId" : null,
+          "alternateCodingSystemVersionId" : null,
+          "originalText" : null
+        }
+      },
+      "certifiedBy" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "certificationRequired" : null,
+      "penalty" : {
+        "moneyOrPercentageIndicator" : null,
+        "moneyOrPercentageQuantity" : null,
+        "currencyDenomination" : null
+      },
+      "certificationDateTime" : null,
+      "certificationModifyDateTime" : null,
+      "operator" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "certificationBeginDate" : null,
+      "certificationEndDate" : null,
+      "days" : {
+        "dayType" : null,
+        "numberOfDays" : null
+      },
+      "nonConcurCodeDescription" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "nonConcurEffectiveDateTime" : null,
+      "physicianReviewer" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "certificationContact" : null,
+      "certificationContactPhoneNumber" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ],
+      "appealReason" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "certificationAgency" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "certificationAgencyPhoneNumber" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ],
+      "preCertificationRequirement" : [ {
+        "certificationPatientType" : null,
+        "certificationRequired" : null,
+        "dateTimeCertificationRequired" : {
+          "time" : null,
+          "degreeOfPrecision" : null
+        }
+      } ],
+      "caseManager" : null,
+      "secondOpinionDate" : null,
+      "secondOpinionStatus" : null,
+      "secondOpinionDocumentationReceived" : [ ],
+      "secondOpinionPhysician" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ]
+    } ],
+    "roles" : [ {
+      "roleInstanceId" : {
+        "entityIdentifier" : null,
+        "namespaceId" : null,
+        "universalId" : null,
+        "universalIdType" : null
+      },
+      "actionCode" : null,
+      "roleROL" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "rolePerson" : [ {
+        "idNumber" : null,
+        "familyName" : null,
+        "givenName" : null,
+        "middleInitialOrName" : null,
+        "suffix" : null,
+        "prefix" : null,
+        "degree" : null,
+        "sourceTable" : null,
+        "assigningAuthority" : null,
+        "nameType" : null,
+        "identifierCheckDigit" : null,
+        "checkDigitScheme" : null,
+        "identifierTypeCode" : null,
+        "assigningFacilityId" : null
+      } ],
+      "roleBeginDateTime" : null,
+      "roleEndDateTime" : null,
+      "roleDuration" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "roleActionReason" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "providerType" : [ {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      } ],
+      "organizationUnitType" : {
+        "identifier" : null,
+        "text" : null,
+        "nameOfCodingSystem" : null,
+        "alternateIdentifier" : null,
+        "alternateText" : null,
+        "nameOfAlternateCodingSystem" : null
+      },
+      "officeHomeAddressBirthplace" : [ {
+        "streetAddress" : null,
+        "otherDesignation" : null,
+        "city" : null,
+        "stateOrProvince" : null,
+        "zipOrPostalCode" : null,
+        "country" : null,
+        "addressType" : null,
+        "otherGeographicDesignation" : null,
+        "countyParishCode" : null,
+        "censusTract" : null,
+        "addressRepresentationCode" : null,
+        "addressValidityRange" : null,
+        "effectiveDate" : null,
+        "expirationDate" : null
+      } ],
+      "phone" : [ {
+        "telephoneNumber" : null,
+        "telecommunicationUseCode" : null,
+        "telecommunicationEquipmentType" : null,
+        "communicationAddress" : null,
+        "countryCode" : null,
+        "areaCityCode" : null,
+        "localNumber" : null,
+        "extension" : null,
+        "anyText" : null,
+        "extensionPrefix" : null,
+        "speedDialCode" : null,
+        "unformattedTelephoneNumber" : null,
+        "effectiveStartDate" : null,
+        "expirationDate" : null,
+        "expirationReason" : null,
+        "protectionCode" : null,
+        "sharedTelecommunicationIdentifier" : null,
+        "preferenceOrder" : null
+      } ]
+    } ]
+  } ],
+  "accidentInformation" : {
+    "accidentDateTime" : null,
+    "accidentCode" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "accidentLocation" : null,
+    "autoAccidentState" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "accidentJobRelatedIndicator" : null,
+    "accidentDeathIndicator" : null,
+    "enteredBy" : {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    },
+    "accidentDescription" : null,
+    "broughtInBy" : null,
+    "policeNotifiedIndicator" : null,
+    "accidentAddress" : {
+      "streetAddress" : null,
+      "otherDesignation" : null,
+      "city" : null,
+      "stateOrProvince" : null,
+      "zipOrPostalCode" : null,
+      "country" : null,
+      "addressType" : null,
+      "otherGeographicDesignation" : null,
+      "countyParishCode" : null,
+      "censusTract" : null,
+      "addressRepresentationCode" : null,
+      "addressValidityRange" : null,
+      "effectiveDate" : null,
+      "expirationDate" : null
+    }
+  },
+  "ub82Data" : {
+    "setIdUb1" : null,
+    "bloodDeductible" : null,
+    "bloodFurnishedPintsOf" : null,
+    "bloodReplacedPints" : null,
+    "bloodNotReplacedPints" : null,
+    "coInsuranceDays" : null,
+    "conditionCode" : [ ],
+    "coveredDays" : null,
+    "nonCoveredDays" : null,
+    "valueAmountAndCode" : [ {
+      "valuecode" : null,
+      "valueamount" : null
+    } ],
+    "numberOfGraceDays" : null,
+    "specialProgramIndicator" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "psroUrApprovalIndicator" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "psroUrApprovedStayFm" : null,
+    "psroUrApprovedStayTo" : null,
+    "occurrence" : [ {
+      "occurencecode" : null,
+      "occurencedate" : null
+    } ],
+    "occurrenceSpan" : {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    },
+    "occurSpanStartDate" : null,
+    "occurSpanEndDate" : null,
+    "ub82Locator2" : null,
+    "ub82Locator9" : null,
+    "ub82Locator27" : null,
+    "ub82Locator45" : null
+  },
+  "ub92Data" : {
+    "setIdUb2" : null,
+    "coInsuranceDays" : null,
+    "conditionCode" : [ ],
+    "coveredDays" : null,
+    "nonCoveredDays" : null,
+    "valueAmountAndCode" : [ {
+      "valuecode" : null,
+      "valueamount" : null
+    } ],
+    "occurrenceCodeAndDate" : [ {
+      "occurencecode" : null,
+      "occurencedate" : null
+    } ],
+    "occurrenceSpanCodeDates" : [ {
+      "occurrenceSpanCode" : null,
+      "occurrenceSpanStartDate" : null,
+      "occurrenceSpanStopDate" : null
+    } ],
+    "ub92Locator2State" : [ ],
+    "ub92Locator11State" : [ ],
+    "ub92Locator31National" : null,
+    "documentControlNumber" : [ ],
+    "ub92Locator49National" : [ ],
+    "ub92Locator56State" : [ ],
+    "ub92Locator57National" : null,
+    "ub92Locator78State" : [ ],
+    "specialVisitCount" : null
+  },
+  "patientDeathAndAutopsy" : {
+    "deathCauseCode" : [ {
+      "identifier" : null,
+      "text" : null,
+      "nameOfCodingSystem" : null,
+      "alternateIdentifier" : null,
+      "alternateText" : null,
+      "nameOfAlternateCodingSystem" : null
+    } ],
+    "deathLocation" : {
+      "pointOfCare" : null,
+      "room" : null,
+      "bed" : null,
+      "facility" : null,
+      "locationStatus" : null,
+      "personLocationType" : null,
+      "building" : null,
+      "floor" : null,
+      "locationDescription" : null,
+      "comprehensiveLocationIdentifier" : null,
+      "assigningAuthorityForLocation" : null
+    },
+    "deathCertifiedIndicator" : null,
+    "deathCertificateSignedDateTime" : {
+      "time" : null,
+      "degreeOfPrecision" : null
+    },
+    "deathCertifiedBy" : {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    },
+    "autopsyIndicator" : null,
+    "autopsyStartAndEndDateTime" : {
+      "rangeStartDateTime" : null,
+      "rangeEndDateTime" : null
+    },
+    "autopsyPerformedBy" : {
+      "idNumber" : null,
+      "familyName" : null,
+      "givenName" : null,
+      "middleInitialOrName" : null,
+      "suffix" : null,
+      "prefix" : null,
+      "degree" : null,
+      "sourceTable" : null,
+      "assigningAuthority" : null,
+      "nameType" : null,
+      "identifierCheckDigit" : null,
+      "checkDigitScheme" : null,
+      "identifierTypeCode" : null,
+      "assigningFacilityId" : null
+    },
+    "coronerIndicator" : null
+  }
+}
